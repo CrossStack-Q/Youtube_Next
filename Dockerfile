@@ -3,7 +3,7 @@ FROM node:20-alpine
 
 RUN mkdir -p /home/app
 
-COPY ./reactapp /home/app
+COPY ./nextapp /home/app
 
 
 
